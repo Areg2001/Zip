@@ -47,10 +47,6 @@ class Window(QMainWindow):
     def decompressed(self):
         f.currentFile()
 
-
-
-
-
 app = QApplication([])
 window = Window()
 window.show()
